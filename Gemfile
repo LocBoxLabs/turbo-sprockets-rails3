@@ -8,6 +8,7 @@ gem "jquery-rails"
 
 gem "uglifier", :require => false
 gem "mocha", :require => false
+gem "parallel", :require => false
 
 unless ENV['CI']
   gem "debugger", :platform => :mri_19
